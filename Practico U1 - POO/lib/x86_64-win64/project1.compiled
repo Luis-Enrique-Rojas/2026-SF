@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1449427374"/>
-  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -l -vewnhibq &quot;-FiC:\Enrique\UAGRM\PROGRAMACIÓN 1\2026\PASCAL\Practico U1 - POO\lib\x86_64-win64&quot; &quot;-FuC:\Enrique\UAGRM\PROGRAMACIÓN 1\2026\PASCAL\Practico U1 - POO\&quot; &quot;-FUC:\Enrique\UAGRM\PROGRAMACIÓN 1\2026\PASCAL\Practico U1 - POO\lib\x86_64-win64\&quot; &quot;-FEC:\Enrique\UAGRM\PROGRAMACIÓN 1\2026\PASCAL\Practico U1 - POO\&quot; &quot;-oC:\Enrique\UAGRM\PROGRAMACIÓN 1\2026\PASCAL\Practico U1 - POO\project1.exe&quot; project1.lpr"/>
-</CONFIG>
