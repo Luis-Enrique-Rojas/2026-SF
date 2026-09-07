@@ -1,0 +1,442 @@
+object Form1: TForm1
+  Left = 943
+  Height = 653
+  Top = 122
+  Width = 482
+  Caption = 'PRACTICO 1 - APLICACION'
+  ClientHeight = 653
+  ClientWidth = 482
+  Color = clSilver
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 160
+    Height = 24
+    Top = 24
+    Width = 152
+    Caption = 'Numero Natural'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object v: TEdit
+    Left = 56
+    Height = 28
+    Top = 72
+    Width = 368
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+    TextHint = 'Valor . . .'
+  end
+  object dig: TEdit
+    Left = 56
+    Height = 28
+    Top = 120
+    Width = 368
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+    TextHint = 'Digito . . .'
+  end
+  object posi: TEdit
+    Left = 56
+    Height = 28
+    Top = 168
+    Width = 368
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+    TextHint = 'Posicion . . .'
+  end
+  object Button1: TButton
+    Left = 56
+    Height = 26
+    Top = 208
+    Width = 176
+    Caption = 'CREAR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 56
+    Height = 26
+    Top = 240
+    Width = 176
+    Caption = 'SET_VALOR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 56
+    Height = 26
+    Top = 272
+    Width = 176
+    Caption = 'GET_VALOR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Button4: TButton
+    Left = 56
+    Height = 26
+    Top = 336
+    Width = 176
+    Caption = 'DIG_SUM'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button4Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button5: TButton
+    Left = 56
+    Height = 26
+    Top = 304
+    Width = 176
+    Caption = 'DIG_CANT'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button5Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Button6: TButton
+    Left = 248
+    Height = 26
+    Top = 560
+    Width = 176
+    Caption = 'SALIR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button6Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Button7: TButton
+    Left = 56
+    Height = 26
+    Top = 368
+    Width = 176
+    Caption = 'INSERTAR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button7Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button8: TButton
+    Left = 248
+    Height = 26
+    Top = 528
+    Width = 176
+    Caption = 'LIMPIAR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button8Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button9: TButton
+    Left = 56
+    Height = 26
+    Top = 400
+    Width = 176
+    Caption = 'OBTENER'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button9Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Button10: TButton
+    Left = 56
+    Height = 26
+    Top = 432
+    Width = 176
+    Caption = 'ELIMINAR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button10Click
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Button11: TButton
+    Left = 56
+    Height = 26
+    Top = 464
+    Width = 176
+    Caption = 'PARES'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button11Click
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Button12: TButton
+    Left = 56
+    Height = 26
+    Top = 496
+    Width = 176
+    Caption = 'IMPARES'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button12Click
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Button13: TButton
+    Left = 248
+    Height = 26
+    Top = 240
+    Width = 176
+    Caption = 'CAPICUA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button13Click
+    ParentFont = False
+    TabOrder = 15
+  end
+  object Button14: TButton
+    Left = 248
+    Height = 26
+    Top = 208
+    Width = 176
+    Caption = 'INVERTIR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button14Click
+    ParentFont = False
+    TabOrder = 16
+  end
+  object Button15: TButton
+    Left = 248
+    Height = 26
+    Top = 272
+    Width = 176
+    Caption = 'PAR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button15Click
+    ParentFont = False
+    TabOrder = 17
+  end
+  object Button16: TButton
+    Left = 248
+    Height = 26
+    Top = 304
+    Width = 176
+    Caption = 'IMPAR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button16Click
+    ParentFont = False
+    TabOrder = 18
+  end
+  object Button17: TButton
+    Left = 56
+    Height = 26
+    Top = 560
+    Width = 176
+    Caption = 'MAYOR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button17Click
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Button18: TButton
+    Left = 248
+    Height = 26
+    Top = 336
+    Width = 176
+    Caption = 'PRIMO'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 20
+  end
+  object Button19: TButton
+    Left = 56
+    Height = 26
+    Top = 528
+    Width = 176
+    Caption = 'PRIMOS'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button19Click
+    ParentFont = False
+    TabOrder = 21
+  end
+  object Button20: TButton
+    Left = 56
+    Height = 26
+    Top = 592
+    Width = 176
+    Caption = 'MENOR'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button20Click
+    ParentFont = False
+    TabOrder = 22
+  end
+  object Button21: TButton
+    Left = 248
+    Height = 26
+    Top = 368
+    Width = 176
+    Caption = 'CONVERS_BINARIO'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button21Click
+    ParentFont = False
+    TabOrder = 23
+  end
+  object Button22: TButton
+    Left = 248
+    Height = 26
+    Top = 400
+    Width = 176
+    Caption = 'CONVER_OCTAL'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button22Click
+    ParentFont = False
+    TabOrder = 24
+  end
+  object Button23: TButton
+    Left = 248
+    Height = 26
+    Top = 432
+    Width = 176
+    Caption = 'CONVER_HEXADECI'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button23Click
+    ParentFont = False
+    TabOrder = 25
+  end
+  object Button24: TButton
+    Left = 248
+    Height = 26
+    Top = 464
+    Width = 176
+    Caption = 'CONVER_BASE_N'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button24Click
+    ParentFont = False
+    TabOrder = 26
+  end
+  object Button25: TButton
+    Left = 248
+    Height = 26
+    Top = 496
+    Width = 176
+    Caption = 'CONVER_ROMANO'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Microsoft JhengHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button25Click
+    ParentFont = False
+    TabOrder = 27
+  end
+end

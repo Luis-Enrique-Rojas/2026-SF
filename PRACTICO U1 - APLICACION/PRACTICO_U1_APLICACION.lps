@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="PRACTICO_U1_APLICACION.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="fnatural.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="182"/>
+        <CursorPos X="64" Y="203"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unatural.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="388"/>
+        <CursorPos X="55" Y="396"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="183" Column="38" TopLine="158"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="30" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="31" Column="38" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="32" Column="34" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="33" Column="59" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="34" Column="34" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="35" Column="47"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="36" Column="33" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="37" Column="37" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="38" Column="37" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="39" Column="40" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="unatural.pas"/>
+        <Caret Line="40" Column="35" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="101" Column="37" TopLine="96"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="78" Column="37" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="108" Column="38" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="86" Column="36" TopLine="75"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="115" Column="41" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="120" Column="44" TopLine="110"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="121" Column="44" TopLine="111"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="122" Column="44" TopLine="112"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="123" Column="44" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="130" Column="44" TopLine="120"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="92" Column="25" TopLine="84"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="98" Column="26" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="103" Column="38" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="98" Column="8" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="99" Column="4" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="110" Column="42" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="115" Column="25" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="fnatural.pas"/>
+        <Caret Line="109" Column="52" TopLine="94"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
